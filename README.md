@@ -1,138 +1,46 @@
+# IBM Data Science Professional Certificate  
+## Coursework, Projects, and Capstone
 
-# Global Superstore Analysis 🚀
+This repository contains my complete work for the **IBM Data Science Professional Certificate**.  
+It includes hands-on labs, datasets, notebooks, dashboards, machine learning models, and the final capstone project.
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
-[![IBM Watsonx](https://img.shields.io/badge/IBM-Watsonx-lightgrey)](https://www.ibm.com/watsonx)
-[![Jupyter Notebook](https://img.shields.io/badge/Notebook-Jupyter-orange)](https://jupyter.org/)
-[![PDF](https://img.shields.io/badge/Report-PDF-red)](Awab_project_Analysis/)
-[![Dataset](https://img.shields.io/badge/Dataset-CSV-green)](dataset.csv)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Workflow](https://img.shields.io/badge/Status-Complete-success)]()
+The repository is organized to reflect the learning journey of the program, progressing from
+data analysis and visualization to machine learning, dashboards, and a full end-to-end capstone.
 
 ---
 
-## 🎯 Project Overview
+## 📂 Repository Structure
 
-This project provides a **comprehensive analysis of the Global Superstore dataset** using **IBM Watsonx**, exploring:
-
-- Sales & profitability  
-- Customer behavior & segmentation  
-- Product & category performance  
-- Regional & market trends  
-- Shipping efficiency & temporal trends  
-
-All insights are **visualized using Python, pandas, matplotlib, and seaborn**, with interactive and downloadable assets.
-
----
-
-## 📊 Mini Dashboard Gallery
-
-### 1️⃣ Sales & Profit 
-
-<img width="829" height="465" alt="Image5" src="https://github.com/user-attachments/assets/e6ae4bce-cff9-480c-9985-6d70771f9cf7" />
-<img width="451" height="224" alt="image" src="https://github.com/user-attachments/assets/8e52ec41-3779-4b39-97cb-0f54f8c5cc17" />
-
----
-
-<br><br>
-<br><br>
-
-
-**Profit Analysis by Pivot Table:**  **Identify seasonal fluctuations, peak periods, and loss zones.**
-<br><br>
-
-<img width="823" height="601" alt="Image2" src="https://github.com/user-attachments/assets/f58683b5-7a52-4757-9789-821a5a2fc654" />
-
-<br><br>
-
----
-**Heatmap of Sales, Profit & Quantity:** Visual overview of product and regional performance.
-**Total Sales vs Total Profit Heatmap:** Highlights high-performing and underperforming areas.
-
-<img width="456" height="281" alt="Image3" src="https://github.com/user-attachments/assets/815d2325-23b6-4b9c-a977-9fdcb677f687" />
-
-
----
-
-### 2️⃣ Customer Segmentation 
-**Segment Performance:** Shows total sales and average order value by Consumers and Top VIP customers.
-
-<img width="746" height="465" alt="Image4" src="https://github.com/user-attachments/assets/31829d59-744f-4e84-a482-2cc7fe8912d7" />
-
-
----
-
-### 3️⃣ Product Performance Insights
-**Category & Sub-Category Analysis:** Technology and Copiers are top performers; Furniture often incurs losses.
-
-<img width="1054" height="591" alt="Image" src="https://github.com/user-attachments/assets/06c9fb2b-fc69-4e9c-804d-df31471bba91" />
-
- **Profit by Category and region:** 
-<img width="907" height="355" alt="Screenshot 2025-10-08 at 8 53 06 PM" src="https://github.com/user-attachments/assets/6892a956-dd15-40a3-ab43-2513c93180f5" />
-
----
-
-## 🗂 Repository Structure
-
-```
-
-/notebooks
-Global_Superstore.ipynb      # Main analysis notebook
-dataset.csv                  # Dataset
-
-/Awab_project_Analysis
-PDF files with charts, heatmaps, and visual assets
-
-/assets/images
-All visualizations in PNG format
-
-````
-
----
-
-## 🔑 Key Insights & Recommendations
-
-<details>
-<summary>Click to expand insights</summary>
-
-- **High-value sales drive revenue**, while Furniture often loses profit due to high shipping and discounts.  
-- **Consumers dominate sales volume**, Corporate and Home Office segments have higher average order values.  
-- **Technology products** and **Copiers** are the most profitable.  
-- **Shipping and discount strategies** need optimization.  
-- **Seasonal trends:** Sales peak during Q4 (Nov–Dec).  
-
-> Full analysis, graphs, and actionable recommendations are in the notebook.
-
-</details>
-
----
-
-## 💻 How to Use
-
-1. Clone the repository:  
-```bash
-git clone https://github.com/Pinkkygold/IBM-Data-Scientisit.git
-````
-
-2. Open the notebook in Jupyter or IBM Watsonx:
-
-```
-notebooks/Global_Superstore.ipynb
-```
-
-3. Explore PDFs in `Awab_project_Analysis/` and images in `assets/images/`.
-
----
-
-## 📫 Contact
-
-* GitHub: [Pinkkygold](https://github.com/Pinkkygold)
-* Email: [your-email@example.com](mailto:your-email@example.com) (optional)
-
----
-
-**Built with ❤️ using IBM Watsonx and Python**
-
-
-
-
+```text
+IBM-Data-Science/
+│
+├── data/                         # Course datasets and supporting data files
+│
+├── Projects/                     # Main projects folder
+│   ├── MachineLearning/
+│   ├── DataScience Capstone/
+│   └── Data Visualisation with Python/
+│
+├── learning.ipynb
+├── bitcoin_candlestick_graph.html
+├── plotly_figure.html
+├── Model_Evaluation.png
+├── problem_understanding_steps.html
+├── README.md
+📊 Data Folder
+The data/ directory contains datasets used across multiple labs and projects, including:
+CSV datasets for analysis and modeling
+Pickle files for saved models
+SQLite databases used for SQL-based analysis
+🧠 Skills Covered
+Python for Data Science
+Pandas & NumPy
+Data Visualization (Matplotlib, Seaborn, Plotly)
+SQL & SQLite
+Web Scraping
+Interactive Dashboards (Dash & Folium)
+Machine Learning & Model Evaluation
+End-to-End Project Design
+🎓 Certificate
+This work was completed as part of the IBM Data Science Professional Certificate on Coursera.
+📌 This repository is intended for educational, portfolio, and peer-review purposes.
