@@ -1,48 +1,65 @@
-# 🚀 SpaceX Launch Success Prediction  
-### IBM Applied Data Science Capstone Project
+# 🚀 SpaceX Launch Success Prediction
 
-> **End-to-end data science project** analyzing SpaceX Falcon 9 launches to understand and predict **first-stage landing success**, a key factor in SpaceX’s reusable rocket strategy.
+## IBM Applied Data Science Capstone Project
+
+![IBM](https://img.shields.io/badge/IBM-Applied%20Data%20Science-blue?style=for-the-badge\&logo=ibm)
+![Coursera](https://img.shields.io/badge/Coursera-Capstone-0056D2?style=for-the-badge\&logo=coursera)
+![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge\&logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-F7931E?style=for-the-badge\&logo=scikit-learn)
+![Plotly](https://img.shields.io/badge/Plotly-Dashboards-3F4F75?style=for-the-badge\&logo=plotly)
+![Folium](https://img.shields.io/badge/Folium-Maps-77B829?style=for-the-badge)
+
+> **End-to-end data science project** analyzing SpaceX Falcon 9 launches to understand and predict
+> **first-stage landing success**, a critical factor in SpaceX’s reusable rocket strategy.
 
 ---
 
 ## 📌 Table of Contents
-- [Project Overview](#-project-overview)
-- [Business Problem](#-business-problem)
-- [Repository Structure](#-repository-structure)
-- [Data Collection](#-data-collection)
-- [Data Wrangling](#-data-wrangling)
-- [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-- [Interactive Visual Analytics](#-interactive-visual-analytics)
-- [Predictive Analysis](#-predictive-analysis)
-- [Results & Insights](#-results--insights)
-- [Limitations & Future Work](#-limitations--future-work)
-- [How to Run](#-how-to-run)
-- [Author & Certificate](#-author--certificate)
+
+* [Project Overview](#-project-overview)
+* [Business Problem](#-business-problem)
+* [Repository Structure](#-repository-structure)
+* [Data Collection](#-data-collection)
+* [Data Wrangling](#-data-wrangling)
+* [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+* [Interactive Visual Analytics](#-interactive-visual-analytics)
+* [Predictive Analysis](#-predictive-analysis)
+* [Results & Insights](#-results--insights)
+* [Limitations & Future Work](#-limitations--future-work)
+* [How to Run](#-how-to-run)
+* [Presentation](#-presentation)
+* [Author & Certificate](#-author--certificate)
 
 ---
 
 ## 📖 Project Overview
-This repository contains all work completed for the **IBM Applied Data Science Professional Certificate – Capstone Project**.
 
-The project applies the **full data science lifecycle**:
-- Data collection (API & web scraping)
-- Data wrangling & feature engineering
-- Exploratory data analysis using **SQL & visualization**
-- Interactive analytics with **Folium & Plotly Dash**
-- Predictive modeling using **machine learning classification**
+This repository contains all work completed for the
+**IBM Applied Data Science Professional Certificate – Capstone Project**.
 
-All notebooks, datasets, dashboards, and the final presentation are included for **peer review and reproducibility**.
+The project follows the **complete data science lifecycle**:
+
+* 📡 Data collection (REST API & web scraping)
+* 🧹 Data wrangling & feature engineering
+* 🔍 Exploratory Data Analysis (EDA) using **SQL & visualization**
+* 🌍 Interactive analytics with **Folium & Plotly Dash**
+* 🤖 Predictive modeling using **machine learning classification**
+
+All notebooks, datasets, dashboards, and the final presentation are included for
+**peer review, reproducibility, and portfolio demonstration**.
 
 ---
 
 ## 🎯 Business Problem
-SpaceX dramatically reduces launch costs by **reusing Falcon 9 first-stage boosters**.  
-However, reuse depends on whether the booster lands successfully.
 
-This project answers:
-- What factors influence landing success?
-- How do **payload mass, orbit type, and launch site** affect outcomes?
-- Can landing success be **predicted before launch** using ML?
+SpaceX reduces launch costs by **reusing Falcon 9 first-stage boosters**.
+However, reuse is only possible when the booster **lands successfully**.
+
+This project aims to answer:
+
+* What factors influence landing success?
+* How do **payload mass**, **orbit type**, and **launch site** affect outcomes?
+* Can landing success be **predicted before launch** using machine learning?
 
 ---
 
@@ -50,27 +67,29 @@ This project answers:
 
 ```text
 .
-├── 📄 spacex_web_scraped.csv
-├── 📄 dataset_part_1.csv
-├── 📄 dataset_part_2.csv
-├── 📄 dataset_part_3.csv
-├── 📄 my_data1.db
+├── data/
+│   ├── spacex_web_scraped.csv
+│   ├── dataset_part_1.csv
+│   ├── dataset_part_2.csv
+│   ├── dataset_part_3.csv
+│   └── my_data1.db
 │
-├── 📓 jupyter-labs-spacex-data-collection-api.ipynb
-├── 📓 jupyter-labs-webscraping.ipynb
-├── 📓 labs-jupyter-spacex-Data wrangling.ipynb
-├── 📓 jupyter-labs-eda-sql-coursera_sqllite.ipynb
-├── 📓 edadataviz.ipynb
-├── 📓 lab_jupyter_launch_site_location.ipynb
-├── 📓 SpaceX_Machine Learning Prediction_Part_5.ipynb
+├── notebooks/
+│   ├── jupyter-labs-spacex-data-collection-api.ipynb
+│   ├── jupyter-labs-webscraping.ipynb
+│   ├── labs-jupyter-spacex-Data_wrangling.ipynb
+│   ├── jupyter-labs-eda-sql-coursera_sqllite.ipynb
+│   ├── edadataviz.ipynb
+│   ├── lab_jupyter_launch_site_location.ipynb
+│   └── SpaceX_Machine_Learning_Prediction.ipynb
 │
-├── 📁 foliumDash/
+├── dashboard/
 │   ├── spacex-dash-app.py
 │   └── spacex_launch_dash.csv
 │
-├── 📊 Presentation.pptx
-└── 📄 README.md
-````
+├── Presentation.pptx
+└── README.md
+```
 
 ---
 
@@ -79,22 +98,31 @@ This project answers:
 ### 🔹 SpaceX REST API
 
 * Notebook: `jupyter-labs-spacex-data-collection-api.ipynb`
-* Retrieved launch details, payload mass, booster version, orbit, and landing outcomes.
+* Retrieved:
+
+  * Launch details
+  * Payload mass
+  * Booster version
+  * Orbit type
+  * Landing outcomes
 
 ### 🔹 Web Scraping
 
 * Notebook: `jupyter-labs-webscraping.ipynb`
-* Scraped historical launch data from Wikipedia using **BeautifulSoup**.
-* Output: `spacex_web_scraped.csv`
+* Scraped historical launch data from Wikipedia using **BeautifulSoup**
+* Output dataset: `spacex_web_scraped.csv`
 
 ---
 
 ## 🧹 Data Wrangling
 
-* Notebook: `labs-jupyter-spacex-Data wrangling.ipynb`
-* Cleaned missing values and inconsistent records
-* Converted landing outcomes to **binary classification**
-* Engineered features for ML readiness
+* Notebook: `labs-jupyter-spacex-Data_wrangling.ipynb`
+* Tasks performed:
+
+  * Handling missing values
+  * Removing inconsistencies
+  * Encoding landing outcomes as **binary labels**
+  * Feature engineering for machine learning
 
 ---
 
@@ -103,22 +131,23 @@ This project answers:
 ### 📊 Visualization
 
 * Notebook: `edadataviz.ipynb`
-* Explored relationships between:
+* Analysis included:
 
-  * Payload Mass & Launch Site
-  * Flight Number & Orbit Type
-  * Yearly success trends
+  * Payload mass vs. launch success
+  * Orbit type distributions
+  * Launch site performance
+  * Year-over-year success trends
 
 ### 🧮 SQL Analysis
 
 * Notebook: `jupyter-labs-eda-sql-coursera_sqllite.ipynb`
 * Database: `my_data1.db`
-* Key SQL insights:
+* Key insights:
 
-  * Success rate by launch site and orbit
+  * Success rate by launch site
+  * Orbit-level performance
   * Payload aggregations
-  * First successful ground landing
-  * Ranking landing outcomes over time
+  * Timeline of first successful landings
 
 ---
 
@@ -131,74 +160,89 @@ This project answers:
 
   * Launch site markers
   * Success/failure color coding
-  * Distance calculations to coastlines, highways, railways, cities
+  * Distance calculations to:
+
+    * Coastlines
+    * Highways
+    * Railways
+    * Nearby cities
 
 ### 📈 Plotly Dash Dashboard
 
-* Folder: `foliumDash/`
-* App file: `spacex-dash-app.py`
-* Interactive features:
+* Folder: `dashboard/`
+* App: `spacex-dash-app.py`
+* Interactive components:
 
   * Launch site dropdown
   * Payload range slider
-  * Success pie charts & scatter plots
+  * Success pie charts
+  * Payload vs. success scatter plots
 
 ---
 
 ## 🤖 Predictive Analysis
 
-* Notebook: `SpaceX_Machine Learning Prediction_Part_5.ipynb`
+* Notebook: `SpaceX_Machine_Learning_Prediction.ipynb`
 
 ### Models Implemented
 
-| Model                  | Description                   |
-| ---------------------- | ----------------------------- |
-| Logistic Regression    | Interpretable linear baseline |
-| Support Vector Machine | Kernel-based classifier       |
-| Decision Tree          | Rule-based model              |
-| K-Nearest Neighbors    | Distance-based model          |
+| Model               | Purpose                       |
+| ------------------- | ----------------------------- |
+| Logistic Regression | Interpretable baseline model  |
+| SVM                 | Kernel-based classification   |
+| Decision Tree       | Rule-based learning           |
+| K-Nearest Neighbors | Distance-based classification |
 
 ### Methodology
 
 * Feature standardization
 * Train/Test split (80/20)
-* Hyperparameter tuning with **GridSearchCV**
-* Evaluation via accuracy & confusion matrix
+* Hyperparameter tuning using **GridSearchCV**
+* Evaluation via accuracy & confusion matrices
 
 ---
 
 ## 📊 Results & Insights
 
 * All models achieved **~83.33% test accuracy**
-* No single model significantly outperformed others
-* Payload mass, orbit type, and launch site are key predictors
-* Success rate improved substantially over time
+* No single model dominated performance
+* Key predictors:
+
+  * Payload mass
+  * Orbit type
+  * Launch site
+* Landing success **improved significantly over time**
 
 ---
 
 ## ⚠️ Limitations & Future Work
 
-* Limited dataset size
-* No weather or sea condition data
-* Future improvements:
+**Limitations**
 
-  * Weather integration
-  * Ensemble learning
-  * Real-time prediction dashboards
-  * Deep learning models
+* Relatively small dataset
+* No weather or sea condition data
+
+**Future Enhancements**
+
+* Weather and environmental data integration
+* Ensemble & boosting methods
+* Deep learning approaches
+* Real-time prediction dashboards
 
 ---
 
 ## ▶️ How to Run
 
+### Install dependencies
+
 ```bash
 pip install pandas numpy scikit-learn seaborn matplotlib plotly dash folium beautifulsoup4
 ```
 
-To run the dashboard:
+### Run the dashboard
 
 ```bash
-python foliumDash/spacex-dash-app.py
+python dashboard/spacex-dash-app.py
 ```
 
 ---
@@ -206,19 +250,16 @@ python foliumDash/spacex-dash-app.py
 ## 🧾 Presentation
 
 * File: `Presentation.pptx`
-* Fully aligned with Coursera peer-review rubric
-* Can be exported to PDF for final submission
+* Fully aligned with **Coursera peer-review rubric**
+* Ready for PDF export and academic submission
 
 ---
 
 ## 👤 Author & Certificate
 
-**IBM Applied Data Science Capstone**
+**IBM Applied Data Science Capstone Project**
 Completed as part of the **IBM Data Science Professional Certificate** on Coursera.
 
 ---
 
-⭐ *If you found this project useful, feel free to fork or star the repository.*
-
-```
-
+⭐ *If you found this project useful, feel free to fork, star, or reference it.*
