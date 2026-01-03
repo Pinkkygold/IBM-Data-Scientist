@@ -1,46 +1,129 @@
-# IBM Data Science Professional Certificate  
-## Coursework, Projects, and Capstone
+# 🤖 Machine Learning Projects
 
-This repository contains my complete work for the **IBM Data Science Professional Certificate**.  
-It includes hands-on labs, datasets, notebooks, dashboards, machine learning models, and the final capstone project.
+## IBM Data Science Professional Certificate
 
-The repository is organized to reflect the learning journey of the program, progressing from
-data analysis and visualization to machine learning, dashboards, and a full end-to-end capstone.
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Core-blueviolet?style=for-the-badge\&logo=scikit-learn)
+![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge\&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Models-F7931E?style=for-the-badge\&logo=scikit-learn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Handling-150458?style=for-the-badge\&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-013243?style=for-the-badge\&logo=numpy)
 
 ---
 
-## 📂 Repository Structure
+## 📘 Overview
+
+This folder contains **hands-on machine learning notebooks** developed throughout the
+**IBM Data Science Professional Certificate**.
+
+The focus is on:
+
+* Understanding **core ML algorithms**
+* Applying **evaluation techniques**
+* Building **end-to-end ML workflows**
+* Gaining strong **practical intuition**, not just theory
+
+All notebooks are **educational, exploratory, and implementation-focused**.
+
+---
+
+## 📂 Folder Structure
 
 ```text
-IBM-Data-Science/
+MachineLearning/
 │
-├── data/                         # Course datasets and supporting data files
+├── Regression/
+│   ├── Simple_Linear_Regression.ipynb
+│   ├── Multiple_Linear_Regression.ipynb
+│   ├── Regularization_Regression.ipynb
+│   └── Regression_Taxi_Tip.ipynb
 │
-├── Projects/                     # Main projects folder
-│   ├── MachineLearning/
-│   ├── DataScience Capstone/
-│   └── Data Visualisation with Python/
+├── Classification/
+│   ├── Logistic_Regression.ipynb
+│   ├── KNN_Classification.ipynb
+│   ├── Decision_Tree.ipynb
+│   └── Random_Forest_XGBoost.ipynb
 │
-├── learning.ipynb
-├── bitcoin_candlestick_graph.html
-├── plotly_figure.html
-├── Model_Evaluation.png
-├── problem_understanding_steps.html
-├── README.md
-📊 Data Folder
-The data/ directory contains datasets used across multiple labs and projects, including:
-CSV datasets for analysis and modeling
-Pickle files for saved models
-SQLite databases used for SQL-based analysis
-🧠 Skills Covered
-Python for Data Science
-Pandas & NumPy
-Data Visualization (Matplotlib, Seaborn, Plotly)
-SQL & SQLite
-Web Scraping
-Interactive Dashboards (Dash & Folium)
-Machine Learning & Model Evaluation
-End-to-End Project Design
-🎓 Certificate
-This work was completed as part of the IBM Data Science Professional Certificate on Coursera.
-📌 This repository is intended for educational, portfolio, and peer-review purposes.
+├── Unsupervised_Learning/
+│   ├── PCA.ipynb
+│   ├── KMeans_Customer_Segmentation.ipynb
+│   └── Evaluating_Clustering.ipynb
+│
+├── Model_Evaluation/
+│   ├── Evaluating_Classification_Models.ipynb
+│   └── Bias_Variance_Analysis.ipynb
+│
+├── Pipelines_and_Tuning/
+│   ├── ML_Pipelines_GridSearchCV.ipynb
+│
+├── Practice_Project.ipynb
+│
+└── assets/                         # Supporting images and outputs
+```
+
+---
+
+## 🧠 Topics Covered
+
+### 🔹 Supervised Learning
+
+* Linear Regression
+* Multiple Regression
+* Regularization (Ridge, Lasso)
+* Logistic Regression
+* KNN
+* Decision Trees
+* Random Forest
+* XGBoost
+
+### 🔹 Unsupervised Learning
+
+* K-Means Clustering
+* Principal Component Analysis (PCA)
+* Customer Segmentation
+* Clustering Evaluation
+
+### 🔹 Model Evaluation
+
+* Accuracy, Precision, Recall, F1-score
+* Confusion Matrix
+* ROC & AUC
+* Bias–Variance Tradeoff
+
+### 🔹 ML Engineering Practices
+
+* Feature Scaling
+* Pipelines
+* Cross-Validation
+* Hyperparameter Tuning (GridSearchCV)
+
+---
+
+## 🎯 Goal
+
+The goal of this folder is to:
+
+> Build **strong intuition** and **practical experience** with machine learning algorithms
+> before applying them to **large, real-world problems**, such as the **Data Science Capstone (SpaceX project)**.
+
+---
+
+## 📌 Notes
+
+* All notebooks are **self-contained**
+* Emphasis is on **learning by experimentation**
+* Code prioritizes **clarity and correctness**
+* Designed for **educational and portfolio use**
+
+---
+
+### ⭐ Tip
+
+If you are reviewing this for hiring or academic purposes, start with:
+
+* `Regression_Taxi_Tip.ipynb`
+* `Random_Forest_XGBoost.ipynb`
+* `ML_Pipelines_GridSearchCV.ipynb`
+* `KMeans_Customer_Segmentation.ipynb`
+
+---
+
